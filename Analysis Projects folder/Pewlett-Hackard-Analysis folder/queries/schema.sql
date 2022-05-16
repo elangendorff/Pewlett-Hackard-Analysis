@@ -37,9 +37,10 @@ CREATE TABLE dept_emp (
     FOREIGN KEY (dept_no) REFERENCES departments (dept_no)
 );
 CREATE TABLE titles (
-    emp_no integer PRIMARY KEY,
+    emp_no integer NOT NULL,
     title varchar NOT NULL,
     from_date date NOT NULL,
     to_date date NOT NULL,
+    PRIMARY KEY (emp_no, title, from_date, to_date),
     FOREIGN KEY (emp_no) REFERENCES employees (emp_no)
 );
