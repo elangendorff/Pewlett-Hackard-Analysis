@@ -29,7 +29,7 @@ We can see the first and last ten results[^1] of this analysis, here:
 
 | Potential Retirees |
 | :-: |
-| ![potential](./data/retirement_titles.png) |
+| ![potential](./Analysis%20Projects%20folder/Pewlett-Hackard-Analysis%20folder/data/retirement_titles.png) |
 
 [^1]: There is nothing of particular import about the first and last results. They are shown simply to give an idea of the kind of data examined and a count of how many are of retirement age.
 
@@ -41,14 +41,14 @@ We therefore refined the search, looking instead only for unique, *current* empl
 
 | First Ten | Last Ten |
 | :-: | :-: |
-| ![unique titles head](./data/unique_titles_head.png) | ![unique titles tail](./data/unique_titles_tail.png) |
+| ![unique titles head](./Analysis%20Projects%20folder/Pewlett-Hackard-Analysis%20folder/data/unique_titles_head.png) | ![unique titles tail](./Analysis%20Projects%20folder/Pewlett-Hackard-Analysis%20folder/data/unique_titles_tail.png) |
 
 #### Expected Vacancies per Job Title
 Here we see how many vacancies we expect to see should each of the above employees retire:
 
 | Retirees by Title |
 | :-: |
-| ![retiring titles](./data/retiring_titles.png) |
+| ![retiring titles](./Analysis%20Projects%20folder/Pewlett-Hackard-Analysis%20folder/data/retiring_titles.png) |
 
 [Note that total number of Retirees by Title is 72,458, the same as the number of retiring employees we found in the previous table.]
 
@@ -59,14 +59,14 @@ A subset of these potential mentors appears below:
 
 | Potential Mentors |
 | :-: |
-| ![Potential Mentors](./data/mentorship_eligibilty.png) |
+| ![Potential Mentors](./Analysis%20Projects%20folder/Pewlett-Hackard-Analysis%20folder/data/mentorship_eligibilty.png) |
 
 #### Potential Mentors per Job Title
 Here we see the number of mentors available to Pewlett-Hackard, broken down by title:
 
 | Mentors by Title |
 | :-: |
-| ![mentor titles](./data/mentorship_titles.png) |
+| ![mentor titles](./Analysis%20Projects%20folder/Pewlett-Hackard-Analysis%20folder/data/mentorship_titles.png) |
 
 ### Retirees per Mentor
 Assuming Pewlett-Hackard will want to replace their employees who retire, we can estimate that the number of new employees in a given job title will match the number who retire from that title.
@@ -75,7 +75,7 @@ Thus, if we compare the number of mentors and retirees and examine the ratio of 
 
 | Mentors and Retirees by Title |
 | :-: |
-| ![mentors vs. retirees titles](./data/mentors_vs_retirees.png) |
+| ![mentors vs. retirees titles](./Analysis%20Projects%20folder/Pewlett-Hackard-Analysis%20folder/data/mentors_vs_retirees.png) |
 
 ## Results
 Some points that stand out from the above data:
